@@ -12,6 +12,7 @@
 		82EEE9FC2239B53200C3682F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EEE9FA2239B53200C3682F /* Main.storyboard */; };
 		82EEE9FE2239B53200C3682F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EEE9FD2239B53200C3682F /* Assets.xcassets */; };
 		82EEEA012239B53200C3682F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EEE9FF2239B53200C3682F /* LaunchScreen.storyboard */; };
+		82EEEA092239B73600C3682F /* loginbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 82EEEA082239B73600C3682F /* loginbutton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		82EEE9FD2239B53200C3682F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82EEEA002239B53200C3682F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82EEEA022239B53200C3682F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EEEA082239B73600C3682F /* loginbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbutton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				82EEE9F62239B53200C3682F /* AppDelegate.swift */,
 				82EEE9F82239B53200C3682F /* ViewController.swift */,
+				82EEEA082239B73600C3682F /* loginbutton.png */,
 				82EEE9FA2239B53200C3682F /* Main.storyboard */,
 				82EEE9FD2239B53200C3682F /* Assets.xcassets */,
 				82EEE9FF2239B53200C3682F /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 				82EEEA012239B53200C3682F /* LaunchScreen.storyboard in Resources */,
 				82EEE9FE2239B53200C3682F /* Assets.xcassets in Resources */,
 				82EEE9FC2239B53200C3682F /* Main.storyboard in Resources */,
+				82EEEA092239B73600C3682F /* loginbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
