@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		269AEFDA223C3F6A00C37114 /* plogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 269AEFD9223C3F6A00C37114 /* plogo.png */; };
+		269AEFE1223C466F00C37114 /* backimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 269AEFE0223C466F00C37114 /* backimg.jpg */; };
+		269AEFE3223C467800C37114 /* plogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 269AEFE2223C467800C37114 /* plogo.png */; };
 		82EEE9F72239B53200C3682F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE9F62239B53200C3682F /* AppDelegate.swift */; };
 		82EEE9F92239B53200C3682F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE9F82239B53200C3682F /* ViewController.swift */; };
 		82EEE9FC2239B53200C3682F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EEE9FA2239B53200C3682F /* Main.storyboard */; };
@@ -17,7 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		269AEFD9223C3F6A00C37114 /* plogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plogo.png; path = ../../../Downloads/plogo.png; sourceTree = "<group>"; };
+		269AEFE0223C466F00C37114 /* backimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = backimg.jpg; path = ../../../Downloads/backimg.jpg; sourceTree = "<group>"; };
+		269AEFE2223C467800C37114 /* plogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plogo.png; path = ../../../Downloads/plogo.png; sourceTree = "<group>"; };
 		82EEE9F32239B53200C3682F /* onlineshopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onlineshopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EEE9F62239B53200C3682F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82EEE9F82239B53200C3682F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +60,8 @@
 		82EEE9F52239B53200C3682F /* onlineshopping */ = {
 			isa = PBXGroup;
 			children = (
-				269AEFD9223C3F6A00C37114 /* plogo.png */,
+				269AEFE2223C467800C37114 /* plogo.png */,
+				269AEFE0223C466F00C37114 /* backimg.jpg */,
 				82EEE9F62239B53200C3682F /* AppDelegate.swift */,
 				82EEE9F82239B53200C3682F /* ViewController.swift */,
 				82EEEA082239B73600C3682F /* loginbutton.png */,
@@ -129,10 +132,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				82EEEA012239B53200C3682F /* LaunchScreen.storyboard in Resources */,
+				269AEFE1223C466F00C37114 /* backimg.jpg in Resources */,
 				82EEE9FE2239B53200C3682F /* Assets.xcassets in Resources */,
-				269AEFDA223C3F6A00C37114 /* plogo.png in Resources */,
 				82EEE9FC2239B53200C3682F /* Main.storyboard in Resources */,
 				82EEEA092239B73600C3682F /* loginbutton.png in Resources */,
+				269AEFE3223C467800C37114 /* plogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
