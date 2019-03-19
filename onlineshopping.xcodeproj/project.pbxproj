@@ -14,7 +14,7 @@
 		269AEFED223C786000C37114 /* cartbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 269AEFEC223C786000C37114 /* cartbtn.png */; };
 		269AEFEF223C7A5B00C37114 /* homeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 269AEFEE223C7A5B00C37114 /* homeBtn.png */; };
 		82EEE9F72239B53200C3682F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE9F62239B53200C3682F /* AppDelegate.swift */; };
-		82EEE9F92239B53200C3682F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE9F82239B53200C3682F /* HomeViewController.swift */; };
+		82EEE9F92239B53200C3682F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE9F82239B53200C3682F /* ViewController.swift */; };
 		82EEE9FC2239B53200C3682F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EEE9FA2239B53200C3682F /* Main.storyboard */; };
 		82EEE9FE2239B53200C3682F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82EEE9FD2239B53200C3682F /* Assets.xcassets */; };
 		82EEEA012239B53200C3682F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EEE9FF2239B53200C3682F /* LaunchScreen.storyboard */; };
@@ -29,7 +29,7 @@
 		269AEFEE223C7A5B00C37114 /* homeBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homeBtn.png; path = ../../../Downloads/homeBtn.png; sourceTree = "<group>"; };
 		82EEE9F32239B53200C3682F /* onlineshopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onlineshopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EEE9F62239B53200C3682F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82EEE9F82239B53200C3682F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		82EEE9F82239B53200C3682F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		82EEE9FB2239B53200C3682F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82EEE9FD2239B53200C3682F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82EEEA002239B53200C3682F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				269AEFE2223C467800C37114 /* plogo.png */,
 				269AEFE0223C466F00C37114 /* backimg.jpg */,
 				82EEE9F62239B53200C3682F /* AppDelegate.swift */,
-				82EEE9F82239B53200C3682F /* HomeViewController.swift */,
+				82EEE9F82239B53200C3682F /* ViewController.swift */,
 				82EEE9FA2239B53200C3682F /* Main.storyboard */,
 				82EEE9FD2239B53200C3682F /* Assets.xcassets */,
 				82EEE9FF2239B53200C3682F /* LaunchScreen.storyboard */,
@@ -158,7 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				269AEFE9223C631500C37114 /* LoginViewController.swift in Sources */,
-				82EEE9F92239B53200C3682F /* HomeViewController.swift in Sources */,
+				82EEE9F92239B53200C3682F /* ViewController.swift in Sources */,
 				269AEFEB223C6BF200C37114 /* SignUPViewController.swift in Sources */,
 				82EEE9F72239B53200C3682F /* AppDelegate.swift in Sources */,
 			);

@@ -8,18 +8,22 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController{
 
     @IBOutlet weak var EmailField: UITextField!
     @IBOutlet weak var PassField: UITextField!
     @IBOutlet weak var Login: UIButton!
+    let email = "khushi"
+    let password = "1234"
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
           }
+   
     
     @IBAction func loginBtn(_ sender: UIButton) {
+       
         
         //alert dialogue box
         let alertController = UIAlertController(title: "ALERT!", message: "UserName & Password is Incorrect", preferredStyle: .alert)
@@ -30,7 +34,8 @@ class LoginViewController: UIViewController {
         alertController.addAction(action2)
         
         self.present(alertController, animated: true)
-    }
-    
 
+        }
+    
 }
+
