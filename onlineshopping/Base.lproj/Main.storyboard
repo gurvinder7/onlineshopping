@@ -65,7 +65,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X45-Dl-38m">
-                                <rect key="frame" x="67.5" y="319" width="240" height="58"/>
+                                <rect key="frame" x="67.5" y="275" width="240" height="58"/>
                                 <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="15g-ny-nas"/>
@@ -83,7 +83,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jaC-6y-dqH">
-                                <rect key="frame" x="60.5" y="107" width="254" height="30"/>
+                                <rect key="frame" x="60.5" y="63" width="254" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="87r-97-xJQ"/>
                                     <constraint firstAttribute="width" constant="254" id="mqn-8l-VgX"/>
@@ -93,7 +93,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0xj-B2-VAJ">
-                                <rect key="frame" x="60.5" y="153" width="254" height="30"/>
+                                <rect key="frame" x="60.5" y="109" width="254" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="254" id="3SY-yU-xG1"/>
                                     <constraint firstAttribute="height" constant="30" id="vFZ-pk-sMb"/>
@@ -119,6 +119,7 @@
                         <outlet property="EmailField" destination="jaC-6y-dqH" id="6n0-b9-6Sp"/>
                         <outlet property="Login" destination="X45-Dl-38m" id="OXr-ys-4il"/>
                         <outlet property="PassField" destination="0xj-B2-VAJ" id="Qtf-Ic-JOy"/>
+                        <segue destination="csb-7v-O6E" kind="show" id="aht-eN-VtW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1we-lY-pNC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -126,10 +127,10 @@
             </objects>
             <point key="canvasLocation" x="1718" y="-990"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Home Table View Controller-->
         <scene sceneID="tb4-qX-saH">
             <objects>
-                <tableViewController id="csb-7v-O6E" sceneMemberID="viewController">
+                <tableViewController id="csb-7v-O6E" customClass="HomeTableViewController" customModule="onlineshopping" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7Dr-XJ-1TC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -271,6 +272,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="dfe-en-yvB"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -283,10 +287,10 @@
             </objects>
             <point key="canvasLocation" x="2553" y="-1296"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="aCG-9U-kj9">
             <objects>
-                <viewController id="H9g-Zz-c4k" sceneMemberID="viewController">
+                <viewController id="H9g-Zz-c4k" customClass="ProfileViewController" customModule="onlineshopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JQ2-UI-s66">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -296,12 +300,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C1J-lg-hlT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3334" y="-2020"/>
+            <point key="canvasLocation" x="3295" y="-2165"/>
         </scene>
-        <!--View Controller-->
+        <!--Shop Cart View Controller-->
         <scene sceneID="okk-xZ-alr">
             <objects>
-                <viewController id="QKl-wQ-Uoj" sceneMemberID="viewController">
+                <viewController id="QKl-wQ-Uoj" customClass="ShopCartViewController" customModule="onlineshopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yKI-6t-Ajo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -311,12 +315,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYA-KY-d8O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4782" y="-991"/>
+            <point key="canvasLocation" x="4914" y="-1504"/>
         </scene>
-        <!--View Controller-->
+        <!--Products View Controller-->
         <scene sceneID="Egv-Ri-ypf">
             <objects>
-                <viewController id="zg1-ah-kJ5" sceneMemberID="viewController">
+                <viewController id="zg1-ah-kJ5" customClass="ProductsViewController" customModule="onlineshopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3I5-OE-m56">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -326,12 +330,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a2L-2T-ejg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4044" y="-1655"/>
+            <point key="canvasLocation" x="4142" y="-1913"/>
         </scene>
-        <!--View Controller-->
+        <!--About Us View Controller-->
         <scene sceneID="ZcC-W3-mup">
             <objects>
-                <viewController id="AA0-S8-V4S" sceneMemberID="viewController">
+                <viewController id="AA0-S8-V4S" customClass="AboutUsViewController" customModule="onlineshopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tva-CP-Y39">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -341,12 +345,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="moK-1F-3E2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3167" y="-224"/>
+            <point key="canvasLocation" x="4142" y="-411"/>
         </scene>
-        <!--View Controller-->
+        <!--Contact Us View Controller-->
         <scene sceneID="A49-QY-Ek9">
             <objects>
-                <viewController id="6EU-cb-qGQ" sceneMemberID="viewController">
+                <viewController id="6EU-cb-qGQ" customClass="ContactUsViewController" customModule="onlineshopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XNZ-f5-yT4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -356,12 +360,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJc-Rk-xDi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2473" y="-478"/>
+            <point key="canvasLocation" x="3294" y="-216"/>
         </scene>
-        <!--View Controller-->
+        <!--Shop Info View Controller-->
         <scene sceneID="lgT-M8-Q2W">
             <objects>
-                <viewController id="pVf-KD-K1w" sceneMemberID="viewController">
+                <viewController id="pVf-KD-K1w" customClass="ShopInfoViewController" customModule="onlineshopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xJQ-R5-A0V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -371,7 +375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3SU-z4-DBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4044" y="-335"/>
+            <point key="canvasLocation" x="4914" y="-831"/>
         </scene>
         <!--SignUP View Controller-->
         <scene sceneID="sLx-dM-Gba">
@@ -382,7 +386,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tat-yZ-m3s">
-                                <rect key="frame" x="67.5" y="295" width="240" height="58"/>
+                                <rect key="frame" x="67.5" y="251" width="240" height="58"/>
                                 <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="GIT-Ah-Mfp"/>
@@ -394,7 +398,7 @@
                                 </state>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Re-enter password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1cm-rA-s8L">
-                                <rect key="frame" x="89" y="183" width="197" height="30"/>
+                                <rect key="frame" x="89" y="139" width="197" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="alh-wl-ged"/>
                                     <constraint firstAttribute="width" constant="197" id="qug-jf-qgW"/>
@@ -404,7 +408,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tMp-fb-9wG">
-                                <rect key="frame" x="89" y="139" width="197" height="30"/>
+                                <rect key="frame" x="89" y="95" width="197" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="FjP-dU-eco"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="197" id="cVt-IT-09y"/>
@@ -416,7 +420,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="caa-X0-KsI">
-                                <rect key="frame" x="89" y="93" width="197" height="30"/>
+                                <rect key="frame" x="89" y="49" width="197" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="EVz-td-KIA"/>
                                     <constraint firstAttribute="width" constant="197" id="XA5-LB-E3v"/>
@@ -467,4 +471,7 @@
     <resources>
         <image name="plogo.png" width="312" height="312"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="dfe-en-yvB"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -11,6 +11,13 @@
 		269AEFE3223C467800C37114 /* plogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 269AEFE2223C467800C37114 /* plogo.png */; };
 		269AEFE9223C631500C37114 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269AEFE8223C631500C37114 /* LoginViewController.swift */; };
 		269AEFEB223C6BF200C37114 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269AEFEA223C6BF200C37114 /* SignUPViewController.swift */; };
+		269C58852241F653003D3AE5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C58842241F653003D3AE5 /* ProfileViewController.swift */; };
+		269C58872241F677003D3AE5 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C58862241F677003D3AE5 /* HomeTableViewController.swift */; };
+		269C58892241F69D003D3AE5 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C58882241F69D003D3AE5 /* ProductsViewController.swift */; };
+		269C588B2241F6B0003D3AE5 /* ShopCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C588A2241F6B0003D3AE5 /* ShopCartViewController.swift */; };
+		269C588D2241F6C4003D3AE5 /* ShopInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C588C2241F6C4003D3AE5 /* ShopInfoViewController.swift */; };
+		269C588F2241F6EA003D3AE5 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C588E2241F6EA003D3AE5 /* AboutUsViewController.swift */; };
+		269C58912241F6FC003D3AE5 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C58902241F6FC003D3AE5 /* ContactUsViewController.swift */; };
 		82EEE9F72239B53200C3682F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE9F62239B53200C3682F /* AppDelegate.swift */; };
 		82EEE9F92239B53200C3682F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE9F82239B53200C3682F /* ViewController.swift */; };
 		82EEE9FC2239B53200C3682F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82EEE9FA2239B53200C3682F /* Main.storyboard */; };
@@ -23,6 +30,13 @@
 		269AEFE2223C467800C37114 /* plogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plogo.png; path = ../../../Downloads/plogo.png; sourceTree = "<group>"; };
 		269AEFE8223C631500C37114 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		269AEFEA223C6BF200C37114 /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		269C58842241F653003D3AE5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		269C58862241F677003D3AE5 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		269C58882241F69D003D3AE5 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		269C588A2241F6B0003D3AE5 /* ShopCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCartViewController.swift; sourceTree = "<group>"; };
+		269C588C2241F6C4003D3AE5 /* ShopInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopInfoViewController.swift; sourceTree = "<group>"; };
+		269C588E2241F6EA003D3AE5 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		269C58902241F6FC003D3AE5 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
 		82EEE9F32239B53200C3682F /* onlineshopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onlineshopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EEE9F62239B53200C3682F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82EEE9F82239B53200C3682F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +86,13 @@
 				82EEEA022239B53200C3682F /* Info.plist */,
 				269AEFE8223C631500C37114 /* LoginViewController.swift */,
 				269AEFEA223C6BF200C37114 /* SignUPViewController.swift */,
+				269C58842241F653003D3AE5 /* ProfileViewController.swift */,
+				269C58862241F677003D3AE5 /* HomeTableViewController.swift */,
+				269C58882241F69D003D3AE5 /* ProductsViewController.swift */,
+				269C588A2241F6B0003D3AE5 /* ShopCartViewController.swift */,
+				269C588C2241F6C4003D3AE5 /* ShopInfoViewController.swift */,
+				269C588E2241F6EA003D3AE5 /* AboutUsViewController.swift */,
+				269C58902241F6FC003D3AE5 /* ContactUsViewController.swift */,
 			);
 			path = onlineshopping;
 			sourceTree = "<group>";
@@ -149,10 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269C588F2241F6EA003D3AE5 /* AboutUsViewController.swift in Sources */,
+				269C58872241F677003D3AE5 /* HomeTableViewController.swift in Sources */,
 				269AEFE9223C631500C37114 /* LoginViewController.swift in Sources */,
+				269C588B2241F6B0003D3AE5 /* ShopCartViewController.swift in Sources */,
+				269C58892241F69D003D3AE5 /* ProductsViewController.swift in Sources */,
 				82EEE9F92239B53200C3682F /* ViewController.swift in Sources */,
+				269C58852241F653003D3AE5 /* ProfileViewController.swift in Sources */,
 				269AEFEB223C6BF200C37114 /* SignUPViewController.swift in Sources */,
+				269C588D2241F6C4003D3AE5 /* ShopInfoViewController.swift in Sources */,
 				82EEE9F72239B53200C3682F /* AppDelegate.swift in Sources */,
+				269C58912241F6FC003D3AE5 /* ContactUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
